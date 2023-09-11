@@ -11,8 +11,88 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- Main Start -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white m-lg-5 p-lg-3 rounded-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/logo.png" style="width: 100px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-auto">
+            <li class="nav-item mx-3 fw-bold">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3 fw-bold">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mx-3 fw-bold">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <div>
+            <i class="bi bi-facebook fs-5 mx-2"></i
+            ><i class="bi bi-instagram fs-5 mx-2"></i>
+            <i class="bi bi-twitter fs-5 mx-2"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <main>
+      <!-- Banner -->
+      <div class="mt-5 pt-5">
+        <h6 class="text-center fw-bold">HELLO! THIS IS SANDBOX</h6>
+        <h1 class="text-center fw-bold headline">
+          We bring rapid solutions <br />
+          for your business.
+        </h1>
+
+        <button
+          class="primary-btn border-0 rounded-pill py-3 px-lg-5 px-4 fw-bold text-white d-block mx-auto mt-5"
+        >
+          Explore Now
+        </button>
+
+        <img class="img-fluid" src="assets/banner.jpeg" alt="" />
+      </div>
+    </main>
+
+    <!-- Main End -->
+
     <!-- Bootstrap JS CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
