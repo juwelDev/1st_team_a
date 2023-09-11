@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background: #F6F7F9;
+    color: #343F51;
+}
+
+.primary-btn{
+    background-color: #343F51;
+}
+.secondary-btn{
+    border: 3px solid #343F51;
+    background-color: #fff;
+}
+.secondary-btn:hover{
+    color: #fff;
+    background-color: #343F51;
+}
