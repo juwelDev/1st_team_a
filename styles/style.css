@@ -54,3 +54,39 @@ body{
     left: 0;
     z-index: 10;
 }
+.light-blue-2{
+    background-color: rgba(0, 0, 255, 0.15);
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.light-green-2{
+    background-color: rgba(38, 255, 0, 0.204);
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.light-red-2{
+    background-color: rgba(255, 0, 0, 0.15);
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.margin-y{
+    margin: 100px 0;
+}
+.bg-base{
+    background: #F6F7F9;
+}
+.text-soft{
+    color: #AAB0BC;
+}
