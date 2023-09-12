@@ -81,3 +81,6 @@ body{
     align-items: center;
     border-radius: 10px;
 }
+.margin-y{
+    margin: 100px 0;
+}
