@@ -50,7 +50,7 @@ body{
 }
 .margin{
     margin-top: -150px;
-    position: absolute;
+    position: sticky;
     right: 0;
     left: 0;
     z-index: 10;
@@ -90,4 +90,17 @@ body{
 }
 .text-soft{
     color: #AAB0BC;
+}
+.div-container{
+    height: 100vh;
+}
+.footer{
+    background-color: #21262B;
+    /* height: 100vh; */
+}
+.padding-top{
+    padding-top: 150px;
+}
+.negative-margin{
+    margin-top: -100px;
 }
