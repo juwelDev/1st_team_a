@@ -91,3 +91,6 @@ body{
 .text-soft{
     color: #AAB0BC;
 }
+.div-container{
+    height: 100vh;
+}
